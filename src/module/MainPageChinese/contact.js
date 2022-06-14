@@ -8,7 +8,7 @@ const contact = () => {
   return (
     <Fragment>
       <h4>
-        <b>Thông tin liên hệ : </b>
+        <b>联系方式： </b>
       </h4>
       <ul>
         <li>
@@ -18,7 +18,7 @@ const contact = () => {
             className="icon-bootstrap"
           />
           <div>
-            <b> Phone </b>
+            <b> 电话号码 </b>
             <br />
             <a href="tel:0763004331"> 076 300 4331 </a>
           </div>
@@ -26,7 +26,7 @@ const contact = () => {
         <li>
           <EnvelopeFill size={45} color="#9D8B63" className="icon-bootstrap" />
           <div>
-            <b> Email </b>
+            <b> 电子邮箱 </b>
             <br />
             <a href="mailto:kienthanhdiep10101998@gmail.com">
               <small>
@@ -40,9 +40,9 @@ const contact = () => {
         <li>
           <GeoAltFill size={45} color="#9D8B63" className="icon-bootstrap" />
           <div>
-            <b> Address </b>
+            <b> 地址 </b>
             <br />
-            <small>Bình Chánh</small>
+            <small>平政郡</small>
           </div>
         </li>
       </ul>

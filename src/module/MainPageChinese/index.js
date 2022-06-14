@@ -24,9 +24,9 @@ const MainPage = () => {
             </Col>
             <Col lg={8} md={6} sm={6} className="profile-avata-content">
               <div className="profile-avata-name">
-                <h3>DIỆP KIẾN THÀNH</h3>
+                <h3>葉 建 成</h3>
                 <span className="language">
-                  <Link to={"/my-cv-chinese"}>中文</Link>
+                  <Link to={"/my-cv"}>Tiếng Việt</Link>
                 </span>
               </div>
               {/* <p>
@@ -35,14 +35,8 @@ const MainPage = () => {
 
               <div className="profile-avata-content-desc">
                 <p>
-                  Tôi năm nay 24 tuổi và là người Hoa sinh sống tại Việt Nam,
-                  năm 2019 tốt nghiệp tại trường Kinh Tế - Kỹ Thuật Hồ Chí Minh
-                  , với sự hiểu biết lẫn kiến thức của mình, hy vọng sẽ có cơ
-                  hội phát huy tiềm năng của bạn thân mình, cùng công ty tiếng
-                  xa hơn.
-                  {/* Bằng kiến thức và đam mê của mình, tôi mong muốn được phát huy
-                  và cống hiến kỹ năng, sự hiểu biết của mình và việc phát triển
-                  để có thể đóng góp, cống hiến cho quý công ty. */}
+                  本人今年24岁，是越南华人。2019年毕业于胡志明市经济 -
+                  技术大专学校。以本人拥有的知识，希望可以有机会在贵司发挥自己的潜能，与贵司一起成长及茁壯。
                 </p>
               </div>
             </Col>
