@@ -6,10 +6,12 @@ import BirtdayRemider from "./module/Project/birthday-remider";
 import Tour from "./module/Project/tour";
 import MyCV from "./module/MainPage";
 import ErrorPage from "./ErrorPage";
+
 function App() {
-  useEffect(() => {
-    document.title = "DiepKienThanh-CV";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "DiepKienThanh-CV";
+  // }, []);
+
   return (
     <Fragment>
       <Routes>
