@@ -12,7 +12,11 @@ const contact = () => {
       </h4>
       <ul>
         <li>
-          <PhoneVibrateFill size={45} color="#9D8B63" class="icon-bootstrap" />
+          <PhoneVibrateFill
+            size={45}
+            color="#9D8B63"
+            className="icon-bootstrap"
+          />
           <div>
             <b> Phone </b>
             <br />
@@ -20,15 +24,21 @@ const contact = () => {
           </div>
         </li>
         <li>
-          <EnvelopeFill size={45} color="#9D8B63" class="icon-bootstrap" />
+          <EnvelopeFill size={45} color="#9D8B63" className="icon-bootstrap" />
           <div>
             <b> Email </b>
             <br />
-            <a href="mailto: 0763004331"> kienthanhdiep10101998 </a>
+            <a href="mailto:kienthanhdiep10101998@gmail.com">
+              <small>
+                kienthanhdiep10101998
+                <br />
+                @gmail.com
+              </small>
+            </a>
           </div>
         </li>
         <li>
-          <GeoAltFill size={45} color="#9D8B63" class="icon-bootstrap" />
+          <GeoAltFill size={45} color="#9D8B63" className="icon-bootstrap" />
           <div>
             <b> Address </b>
             <br />

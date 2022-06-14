@@ -4,15 +4,16 @@ import "./MainPage.scss";
 import avata from "./../../asset/image/avata.jpg";
 import Contact from "./contact.js";
 import Skill from "./skill.js";
+import { Link } from "react-router-dom";
 const MainPage = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row className="profile-header">
         <Row className="profile-hero">
-          <Col lg={4} md={4} sm={4} style={{ textAlign: "center" }}>
+          <Col lg={4} md={6} sm={6} style={{ textAlign: "center" }}>
             <img src={avata} alt="avata" className="profile-avata" />
           </Col>
-          <Col lg={8} md={8} sm={8} className="profile-avata-content">
+          <Col lg={8} md={6} sm={6} className="profile-avata-content">
             <h3>
               <b>DIỆP KIẾN THÀNH</b>
             </h3>
@@ -35,7 +36,7 @@ const MainPage = () => {
         <Col lg={4} md={4} sm={4} className="profile-side">
           <div className="profile-side-content">
             <Contact />
-            <div class="profile-side-line"></div>
+            <div className="profile-side-line"></div>
             <Skill />
           </div>
         </Col>
@@ -43,8 +44,8 @@ const MainPage = () => {
         <Col lg={8} md={8} sm={8} className="profile-right">
           <div className="profile-right-content">
             <h3> Học vấn </h3>
-            <div class="profile-working">
-              <div class="profile-year" style={{ padding: "10px" }}>
+            <div className="profile-working">
+              <div className="profile-year" style={{ padding: "10px" }}>
                 2016 <br /> 2019
               </div>
               <div className="profile-place">
@@ -54,8 +55,8 @@ const MainPage = () => {
             </div>
 
             <h3 style={{ marginTop: "50px" }}> Kinh nghiệm làm việc </h3>
-            <div class="profile-working">
-              <div class="profile-year">2020</div>
+            <div className="profile-working">
+              <div className="profile-year">2020</div>
               <div className="profile-place">
                 Công ty TNHH Callme <br />
                 <small>Lập trình viên (Frontend)</small>
@@ -83,9 +84,17 @@ const MainPage = () => {
               </ul>
             </div>
 
-            <h3 style={{ marginTop: "50px" }}>Dự án đã thực hiện</h3>
-            <div className="profile-desc">
-              <ul></ul>
+            <h3>Dự án đã thực hiện</h3>
+            <div
+              className="profile-desc"
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+              }}
+            >
+              <Link to={"/project1"}>Project 1</Link>
+
+              <Link to={"/tour"}>Project 2</Link>
             </div>
           </div>
         </Col>
