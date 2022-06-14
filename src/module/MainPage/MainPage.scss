@@ -13,9 +13,9 @@
   }
   &-hero {
     background-color: white;
-    height: 250px;
-    margin: 0 auto !important;
-    transform: translateY(100px);
+    margin: 80px auto !important;
+    z-index: 999;
+
     width: 90% !important;
     align-items: center;
   }
@@ -30,7 +30,7 @@
     }
   }
   &-content {
-    height: 1200px;
+    //height: 1200px;
   }
   &-side {
     background-color: #3d4859;
@@ -39,7 +39,8 @@
       color: white;
       width: 80%;
       margin-left: auto;
-      transform: translateY(200px);
+      margin-top: 200px;
+      margin-bottom: 50px;
     }
     &-line {
       margin: 50px 0;
@@ -72,7 +73,8 @@
     &-content {
       width: 95%;
       margin-left: auto;
-      transform: translateY(200px);
+      margin-top: 200px;
+      margin-bottom: 50px;
       color: #3d4859;
       & h3 {
         font-weight: bold;
@@ -111,4 +113,12 @@
 }
 .icon-bootstrap {
   flex-shrink: 0;
+}
+@media screen and (max-width: 1024px) {
+  .profile-side-content {
+    padding-top: 200px;
+  }
+  .profile-avata-content h3 {
+    margin-top: 30px;
+  }
 }

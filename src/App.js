@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
@@ -7,6 +7,9 @@ import Tour from "./module/Project/tour";
 import MyCV from "./module/MainPage";
 import ErrorPage from "./ErrorPage";
 function App() {
+  useEffect(() => {
+    document.title = "DiepKienThanh-CV";
+  }, []);
   return (
     <Fragment>
       <Routes>

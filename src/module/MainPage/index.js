@@ -33,7 +33,7 @@ const MainPage = () => {
       </Row>
 
       <Row className="profile-content">
-        <Col lg={4} md={4} sm={4} className="profile-side">
+        <Col lg={4} md={4} sm={6} className="profile-side">
           <div className="profile-side-content">
             <Contact />
             <div className="profile-side-line"></div>
@@ -41,7 +41,7 @@ const MainPage = () => {
           </div>
         </Col>
 
-        <Col lg={8} md={8} sm={8} className="profile-right">
+        <Col lg={8} md={8} sm={6} className="profile-right">
           <div className="profile-right-content">
             <h3> Học vấn </h3>
             <div className="profile-working">
