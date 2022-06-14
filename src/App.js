@@ -9,12 +9,13 @@ import ErrorPage from "./ErrorPage";
 function App() {
   return (
     <Fragment>
-      <Routes>
+      <MyCV />
+      {/* <Routes>
         <Route path="/my-cv" element={<MyCV />}></Route>
         <Route path="/project1" element={<BirtdayRemider />}></Route>
         <Route path="/tour" element={<Tour />}></Route>
         <Route path="/*" element={<ErrorPage />}></Route>
-      </Routes>
+      </Routes> */}
     </Fragment>
   );
 }
