@@ -10,6 +10,9 @@
     width: 55%;
     object-fit: cover;
     border-radius: 50%;
+    &-name {
+      position: relative;
+    }
   }
   &-hero {
     background-color: white;
@@ -21,6 +24,10 @@
   }
   &-avata-content {
     text-align: justify !important;
+    & h3 {
+      font-weight: bold;
+    }
+
     &-desc {
       border-top: 1px solid #dddddd;
       border-bottom: 1px solid #dddddd;
@@ -30,7 +37,6 @@
     }
   }
   &-content {
-    //height: 1200px;
   }
   &-side {
     background-color: #3d4859;
@@ -109,6 +115,15 @@
         margin-bottom: 20px;
       }
     }
+  }
+}
+.language {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 1.2rem;
+  & a {
+    text-decoration: none;
   }
 }
 .icon-bootstrap {
